@@ -93,3 +93,22 @@ section {
   width: 604px;
   height: 168px;
 }
+
+footer {
+  text-align: center;
+  margin: 167px 0 23px;
+}
+
+footer hr {
+  width: 568px;
+
+  margin: 0 auto 27px;
+
+  border: 1px solid #00bfa6;
+}
+
+#icone {
+position: fixed;
+bottom: 20px;
+left: 20px;
+}
