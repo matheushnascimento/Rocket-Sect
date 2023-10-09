@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --titulo: "JetBrains Mono", monospace;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
