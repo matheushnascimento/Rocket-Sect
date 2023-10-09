@@ -43,10 +43,53 @@ nav ul li + li + li {
   margin-right: 98px;
 }
 
-nav ul li a {
+a,
+footer {
   text-decoration: none;
   color: var(--cor4);
   font-family: var(--titulo);
   font-size: 14px;
   line-height: 28px;
+}
+
+main {
+  display: flex;
+}
+
+main h1 {
+  color: var(--cor4);
+  text-align: center;
+  font-family: var(--titulo);
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px;
+
+  margin-bottom: 59px;
+}
+
+main h1 strong {
+  color: var(--cor2);
+}
+
+main p {
+  color: var(--cor4);
+}
+
+main p strong {
+  font-weight: bold;
+}
+
+main p span {
+  color: var(--cor2);
+  font-weight: bold;
+}
+
+section {
+  display: block;
+
+  margin-left: 72px;
+
+  width: 604px;
+  height: 168px;
 }
